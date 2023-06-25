@@ -1,0 +1,58 @@
+.Voice-box{
+    margin-top:50px;
+    margin-bottom: 50px;
+    width:1000px;
+    padding:25px 35px;
+    position:absolute;
+    top:59%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background:#515151;
+    border-radius:10px;
+    border:1px solid rgba(0, 0, 0, 0.533);
+    box-shadow: 0 12px 48px 0px rgba(5, 230, 255, 0.2);
+    color: aliceblue;
+}
+.voice-to-text{
+  margin-top:20px;
+  margin-bottom:20px;
+  max-width: 100rem;
+  width: 100%;
+  min-height: 400px;
+  height: auto;
+  padding: 18px 18px 120px 18px;
+  position: relative;
+  resize: none;
+  box-shadow: 0 12px 48px 0px rgba(255, 255, 255, 0.2);
+  background: rgb(255, 255, 255);
+  border: 0.5px solid rgb(231, 245, 244);
+  border-radius: 16px;
+  color: #515151;
+}
+.voice-to-text:focus{
+    border: 0.3px solid rgb(43, 45, 56, 0.3);
+    outline: none;
+}
+p,.voice-to-text{
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.6;
+}
+.button-box{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+@media screen and (max-width:768px){
+    .Voice-box{
+        width:400px;
+    }
+    .button-box{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .btn{
+        font-size: 11px;
+    }
+}
